@@ -23,7 +23,7 @@ import { noop } from '../../../empty';
 
 // https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/button
 export const primaryButton: number = 0;
-export const sloppyClickThreshold: number = 5;
+export const sloppyClickThreshold: number = 0;
 
 function isSloppyClickThresholdExceeded(
   original: Position,
